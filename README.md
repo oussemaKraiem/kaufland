@@ -44,7 +44,8 @@ The project follows the structure below:
      FileReaderJson.php
      FileReaderXml.php
      ProductManager.php
+
 which allow us to save our file content inside our database
  src/Repository: Contains the ProductRepository.php file.
-
+Please find all the logs inside /var/logs 
 Feel free to explore these folders for more details on the project structure.
