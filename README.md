@@ -37,15 +37,19 @@ php bin/console product:save /path/to/file
 
 The project follows the structure below:
 
- src/Entity: Contains the ProductEntity.php file representing the Product entity.
+ - src/Entity: Contains the ProductEntity.php file representing the Product entity.
 
- src/Product: Contains the following files:
+ - src/Product: Contains the following files:
      FileReader.php
      FileReaderJson.php
      FileReaderXml.php
      ProductManager.php
 
-which allow us to save our file content inside our database
- src/Repository: Contains the ProductRepository.php file.
-Please find all the logs inside /var/logs 
+  which allow us to save our file content inside our database
+
+ - src/Repository: Contains the ProductRepository.php file.
+
+- Please find all the logs inside /var/logs
+
+
 Feel free to explore these folders for more details on the project structure.
