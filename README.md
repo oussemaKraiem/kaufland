@@ -21,7 +21,7 @@ This project uses symfony to achieve its goal.
 This project requires [PHP](https://www.php.net//) v7.4.3 to run. Please make sure to clone the project before starting the installation and also
 Please make sure to add .env file and add this line
 ```sh
-DATABASE_URL="mysql://root:test@127.0.0.1:3306/kaufland?serverVersion=8.2.0"
+DATABASE_URL="mysql://username:passwod@127.0.0.1:3306/kaufland?serverVersion=8.2.0"
 APP_ENV=dev
 ```
 ```sh
